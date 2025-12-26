@@ -1,0 +1,34 @@
+Track > AIE
+Student > Overload OR Full Load OR Half-Load
+Year > Year 1 to 5
+Semester > Normal OR Summer
+Course > Core OR AI OR UniReq OR Basic Science & Eng OR Elec OR GradProj OR FieldTrain 
+http://www.semanticweb.org/bedair/ontologies/2023/3/untitled-ontology-5
+
+Student: Student in Alamein University
+	OverLoad : This Student can take 22 hours per semester as he achieved <3.0GPA
+	FullLoad: This student can take 20 hours per semester as he achieved 2.0>GPA & >3.0GPA
+	Half Load: This student can take 13 hours per semester as he achieved >2.0GPA
+
+Semester: A single semester in AIU
+	Normal:A Spring or Fall semester, where a student can take his full allowed credit hours by load
+	Summer: a condensed Semester, where a student is only able to take 9 credit hours
+
+Course: A Single Course in AIU
+	AI: Courses that Specialize in the Artificial Intelligence Track
+	Basic Science & Eng: Courses that qualify the student for an engineering degree
+	Core: Courses that Teach the basics of computer science & Engineering
+	FieldTrain: Field Training done for students to train in the field
+	GradProj: The Graduation Project of each student
+	UniReq: University Requirements taken as Filler courses
+	Elective: Courses taken to the liking of the student
+
+Track: The Track that a given AIU student is in
+	AIE: Artificial Intelligence Engineering
+
+Year: The Academic Year in which the student is in
+	1: Year 1
+	2: Year 2
+	3: Year 3
+	4: Year 4
+	5: Year 5
